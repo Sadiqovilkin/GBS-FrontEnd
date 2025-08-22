@@ -1,0 +1,15 @@
+@import "./partial/variables.scss";
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  &::selection{
+    background-color: $primary-darkBlue-color;
+    color: $white-color;
+  }
+}
+body{
+  padding-top: 15px;
+  height: 5000px;
+}
