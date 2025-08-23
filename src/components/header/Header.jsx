@@ -3,22 +3,22 @@ import "./Header.scss";
 import siteLogo from "../../assets/gbsLogo.png";
 import { NavLink } from "react-router-dom";
 const Header = () => {
-     const [scrollNavbar, setScrollNavbar] = useState("navFixed");
+     const [scrollNavbar, setScrollNavbar] = useState(false);
      useEffect(()=>{
         const handleScroll = () => { 
           if (window.scrollY > 100) {
-            setScrollNavbar("navSticky");
+            setScrollNavbar(true);
           } else {
-            setScrollNavbar("navFixed");
+            setScrollNavbar(false);
           }
         };
     window.addEventListener('scroll', handleScroll);
   },[])
   return (
-    <header id="desktobHeader" className={scrollNavbar} >
+    <header className={scrollNavbar?"desktobHeader navSticky":" desktobHeader"} >
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-3">
+        <div className="row align-items-center justify-content-between">
+          <div className="col-2">
             <div className="logo">
               <img src={siteLogo} alt="" />
             </div>
