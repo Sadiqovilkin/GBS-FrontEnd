@@ -5,6 +5,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+   font-family: "Inter", sans-serif;
   &::selection{
     background-color: $primary-darkBlue-color;
     color: $white-color;

@@ -26,7 +26,7 @@ const Banner = () => {
       <div className="bannerContent">
         <h1>SAFE AND SECURE</h1>
         <h4>We are a Service You Can Trust</h4>
-        <NavLink to="/contact">
+        <NavLink  to="/contact">
           <span class="icon">→</span>
           <span class="text">Now Contact Us</span>
         </NavLink>

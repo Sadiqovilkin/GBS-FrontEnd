@@ -1,0 +1,49 @@
+@mixin animationButton {
+        text-decoration: none;
+      border-radius: 8px;
+      outline: none;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 150%;
+      background-color: $primary-darkBlue-color;
+      color: $white-color;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 8px;
+      cursor: pointer;
+    
+      .icon {
+        transition: 0.5s ease;
+        border: 1px solid $white-color;
+        width: 35px;
+        height: 35px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(0px);
+      }
+
+      .text {
+        transition: 0.3s ease;
+        transform: translateX(0px);
+      }
+
+      &:hover {
+        background-color: $primary-darkBlue-900-color;
+        transition: all 0.3s ease-in-out;
+
+        .icon {
+          //   order: 2;
+          transform: translateX(380%);
+        }
+        .text {
+          //   order: 1;
+          transform: translateX(-50%);
+        }
+      }
+    
+}
