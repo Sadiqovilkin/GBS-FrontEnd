@@ -1,6 +1,8 @@
 import ClientRoot from "../pages/ClientRoot";
 import Contact from "../pages/contact/Contact";
 import Home from "../pages/home/Home";
+import Product from "../pages/product/Product";
+import ProductDetail from "../pages/productDetail/ProductDetail";
 
 
 export const ROUTES = [
@@ -16,35 +18,14 @@ export const ROUTES = [
         path: "contact",
         element: <Contact />,
       },
-      // {
-      //   path: "our-company",
-      //   element: <OurCompany />,
-      // },
-      // {
-      //   path: "point-of-sale",
-      //   element: <PointOfSale />,
-      // },
-      // {
-      //   path: "product",
-      //   element: <Product />,
-      // },
-      // {
-      //   path: "/product/:slug",
-      //   element: <DetailPage />,
-      // },
-      // {
-      //   path: "photos",
-      //   element: <Photos />,
-      // },
-      // {
-      //   path: "videos",
-      //   element: <Videos />,
-      // },
-      // {
-      //   path: "search",
-      //   element: <SearchResult />,
-      // },
-     
+      {
+        path: "product",
+        element: <Product />,
+      },
+      {
+        path: "/product/:slug",
+        element: <ProductDetail/>,
+      },     
     ],
   },
   // {
