@@ -28,6 +28,8 @@ export const overviewData = [
   },
 ];
 
+
+
 import productImage from "../assets/images/productImage.png";
 export const productsData = [
   {
@@ -73,6 +75,7 @@ export const productsData = [
     image: productImage,
   },
 ];
+
 
 
 import projectImage1 from "../assets/project/project1.png";
@@ -129,3 +132,79 @@ export const projectData = [
     videoSrc: "https://www.youtube.com/watch?v=zblxJ1fZCdY",
   },
 ];
+
+
+import partnerImage1 from "../assets/partners/partners1.png";
+import partnerImage2 from "../assets/partners/partners2.png";
+import partnerImage3 from "../assets/partners/partners3.png";
+import partnerImage4 from "../assets/partners/partners4.png";
+import partnerImage5 from "../assets/partners/partners5.png";
+
+export const partnersData = [
+  {
+    id: "1",
+    image: partnerImage1,
+  },
+  {
+    id: "2",
+    image: partnerImage2,
+  },
+  {
+    id: "3",
+    image: partnerImage3,
+  },
+  {
+    id: "4",
+    image: partnerImage4,
+  },
+  {
+    id: "5",
+    image: partnerImage5,
+  },
+  {
+    id: "6",
+    image: partnerImage1,
+  },
+  {
+    id: "7",
+    image: partnerImage2,
+  },
+]
+
+
+import consumerImage1 from "../assets/partners/consumer1.png";
+import consumerImage2 from "../assets/partners/consumer2.png";
+import consumerImage3 from "../assets/partners/consumer3.png";
+import consumerImage4 from "../assets/partners/consumer4.png";
+import consumerImage5 from "../assets/partners/consumer5.png";
+
+export const consumersData = [
+  {
+    id: "1",
+    image: consumerImage1,
+  },
+  {
+    id: "2",
+    image: consumerImage2,
+  },
+  {
+    id: "3",
+    image: consumerImage3,
+  },
+  {
+    id: "4",
+    image: consumerImage4,
+  },
+  {
+    id: "5",
+    image: consumerImage5,
+  },
+  {
+    id: "6",
+    image: consumerImage1,
+  },
+  {
+    id: "7",
+    image: consumerImage2,
+  },
+]

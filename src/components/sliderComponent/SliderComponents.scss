@@ -1,4 +1,28 @@
 @import "../../styles/partial/variables.scss";
-#sliderComponent{
-    
+#sliderComponent {
+  margin-top: 25px;
+  background-color: $primary-darkGray-600-color;
+  padding: 25px 0 45px;
+  .sliderComponentsSwiper {
+    padding: 10px 0;
+    .swiper-pagination {
+      bottom: -5px;
+    }
+    .custom-bullet {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin: 0 4px;
+      border-radius: 4px;
+      background: #0A547A80;
+      transition: all 0.4s ease;
+    }
+
+    /* Aktif olduğunda bar gibi genişle */
+    .swiper-pagination-bullet-active.custom-bullet {
+      width: 40px;
+      border-radius: 4px;
+      background: #0A547A;
+    }
+  }
 }
