@@ -16,6 +16,16 @@ const Overview = () => {
   return (
     <section id="overview">
       <div className="container">
+         <div className="row">
+          <div className="col-7">
+            <div className="sectionHeader">
+          <h2>Product Overview</h2>
+          <p>
+            Discover our wide range of certified and reliable power distribution solutions. Each system is custom-built to meet your project’s unique requirements.
+          </p>
+        </div>
+          </div>
+        </div>
         <div className="row">
           <div className="col-lg-5">
             <div className="accardionButtons">

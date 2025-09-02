@@ -1,17 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "./partial/variables.scss";
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-   font-family: "Inter", sans-serif;
-  &::selection{
+  font-family: "Inter", sans-serif;
+  &::selection {
     background-color: $primary-darkBlue-color;
     color: $white-color;
   }
 }
-body{
+body {
   padding-top: 25px;
   // height: 5000px;
+  .sectionHeader {
+    h2 {
+      color: $black-color;
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 150%;
+    }
+    p {
+      color: $black-color;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      margin-top: 10px;
+    }
+  }
 }

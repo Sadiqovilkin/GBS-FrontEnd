@@ -2,10 +2,8 @@
 @import "../../../styles/partial/mixin.scss";
 #ourProducts{
     padding: 60px 0;
-    #slider_tab{
 
-        // overflow: visible;
-    }
+   
     .productsSwiper{
         .swiper-slide{
             // border: 1px solid rgb(255, 0, 0);
@@ -14,6 +12,7 @@
             }
             .productsCard{
                 width: 100%;
+                
                 .cardImage{
                     width: 100%;
                     // height: 400px;
@@ -28,6 +27,16 @@
                         // padding: 40%;
                         border-radius: 30px;
                         object-fit: cover;
+                    }
+                    &::after{
+                        width: 100%;
+                        height: 100%;
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        border-radius: 30px;
+                        z-index: 1;
                     }
                 }
                 .cardContent{
@@ -44,6 +53,14 @@
                         font-size: 14px;
                         font-weight: 400;
                         line-height: 150%; 
+                    }
+                }
+                &:hover{
+                    .cardImage{
+                        &::after{
+                            background: $primary-darkBlue-color;
+                            opacity: 0.3;
+                        }
                     }
                 }
             }
