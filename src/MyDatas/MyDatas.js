@@ -113,7 +113,7 @@ export const projectData = [
     id: "3",
     title: "Lorem3",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content",
+      "It is a long established fact that a reader will be distracted by the readable content,It is a long established fact that a reader will be distracted by the readable content",
     image:projectImage2,
       images: [projectImage4, projectImage2],
     videoSrc: "https://www.youtube.com/watch?v=zblxJ1fZCdY",
@@ -135,6 +135,16 @@ export const projectData = [
       "It is a long established fact that a reader will be distracted by the readable content",
     image:projectImage2,
       images: [projectImage2, projectImage1],
+    videoSrc: "https://www.youtube.com/watch?v=zblxJ1fZCdY",
+  },
+
+  {
+    id: "6",
+    title: "Lorem6",
+    description:
+      "It is a long established fact that a reader will be distracted by the readable content",
+    image:projectImage1,
+      images: [projectImage2, projectImage3],
     videoSrc: "https://www.youtube.com/watch?v=zblxJ1fZCdY",
   },
 ];
