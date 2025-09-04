@@ -74,6 +74,12 @@ export const productsData = [
     description: "Double Door / Windowless",
     image: productImage,
   },
+  {
+    id: "8",
+    title: "Lorem7",
+    description: "Double Door / Windowless",
+    image: productImage,
+  },
 ];
 
 

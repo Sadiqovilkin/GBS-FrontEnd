@@ -7,11 +7,12 @@
   margin: 0;
   font-family: "Inter", sans-serif;
   &::selection {
-    background-color: $primary-darkBlue-color;
+    background-color: $primary-darkBlue-900-color;
     color: $white-color;
   }
 }
 body {
+  // margin: 0 auto;
   padding-top: 25px;
   // height: 5000px;
   .sectionHeader {

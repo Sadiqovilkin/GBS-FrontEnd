@@ -15,11 +15,13 @@ const OurProducts = () => {
         <div className="row">
           <div className="col-7">
             <div className="sectionHeader">
-          <h2>Our Products</h2>
-          <p>
-            Discover our wide range of certified and reliable power distribution solutions. Each system is custom-built to meet your project’s unique requirements.
-          </p>
-        </div>
+              <h2>Our Products</h2>
+              <p>
+                Discover our wide range of certified and reliable power
+                distribution solutions. Each system is custom-built to meet your
+                project’s unique requirements.
+              </p>
+            </div>
           </div>
         </div>
         <Swiper

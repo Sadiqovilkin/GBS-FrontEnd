@@ -6,7 +6,7 @@ import Footer from '../components/footer/Footer'
 const ClientRoot = () => {
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     <Outlet />
     <Footer/>
     </>

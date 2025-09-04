@@ -1,0 +1,104 @@
+@import "../../styles/partial/variables.scss";
+footer {
+  background-color: $primary-darkBlue-color;
+  color: $white-color;
+  padding: 37px 0;
+  .footerLogo {
+    img {
+      width: 200px;
+      height: 100px;
+      object-fit: contain;
+    }
+    p {
+      margin-top: 25px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      color: $white-color;
+    }
+  }
+  .footerLinksHeader {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    color: $white-color;
+    margin-bottom: 35px;
+  }
+  .footerLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%;
+        color: $white-color;
+        text-decoration: none;
+        transition: .3s ease-in-out;
+      }
+      &:hover a {
+        text-decoration: underline;
+        opacity: 0.7;
+      }
+    }
+  }
+  .footerInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    .footerText {
+      p {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        color: $white-color;
+        cursor: pointer;
+        margin-bottom: 12px;
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+    .footerSocial {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      h3 {
+        font-size: 24px;
+        font-weight: 600;
+      }
+      .iconBox {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .icon {
+          width: 44px;
+          height: 44px;
+          background-color: $white-color;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          &:hover{
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#green .light{
+ box-sizing: border-box;
+ box-sizing: content-box;
+}

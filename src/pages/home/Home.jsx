@@ -5,6 +5,7 @@ import OurProducts from './ourProducts/OurProducts'
 import HomeProject from './homeProject/HomeProject'
 import SliderComponent from '../../components/sliderComponent/SliderComponent'
 import { consumersData, partnersData } from '../../MyDatas/MyDatas'
+import HomeWrapper from './homeWrapper/HomeWrapper'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <OurProducts/>
         <HomeProject/>
         <SliderComponent data={partnersData} title="Our Partners"/>
+        <HomeWrapper/>
         <SliderComponent data={consumersData} title="Our Consumers"/>
     </main>
   )

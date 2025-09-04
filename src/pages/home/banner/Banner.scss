@@ -1,17 +1,16 @@
 @import "../../../styles/partial/variables.scss";
 @import "../../../styles/partial/mixin.scss";
 #banner {
-
-
   width: 95%;
   margin: 0 auto;
   position: relative;
+  z-index: -1;
   border-radius: 40px;
-height: 95vh;
+  height: 95vh;
   background-image: url("../../../assets/bannerImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  margin-top: -78px;
   .overlay {
     border-radius: 40px;
     position: absolute;
