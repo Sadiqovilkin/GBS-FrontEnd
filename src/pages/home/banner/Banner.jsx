@@ -17,8 +17,8 @@ const Banner = () => {
             <input type="tel" placeholder="Phone" />
             <input type="text" placeholder="|" />
             <button type="submit">
-              <span class="icon">→</span>
-              <span class="text">Send Message</span>
+              <span className="icon">→</span>
+              <span className="text">Send Message</span>
             </button>
           </form>
         </div>
@@ -27,8 +27,8 @@ const Banner = () => {
         <h1>SAFE AND SECURE</h1>
         <h4>We are a Service You Can Trust</h4>
         <NavLink  to="/contact">
-          <span class="icon">→</span>
-          <span class="text">Now Contact Us</span>
+          <span className="icon">→</span>
+          <span className="text">Now Contact Us</span>
         </NavLink>
       </div>
     </section>

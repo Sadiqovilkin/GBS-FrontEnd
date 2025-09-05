@@ -68,8 +68,8 @@ const Overview = () => {
                         <p>It is a long established fact that a reader will be distracted by the readable content</p>
                     </div>
                      <NavLink className="viewButton"  to="/contact">
-                              <span class="icon">→</span>
-                              <span class="text">View</span>
+                              <span className="icon">→</span>
+                              <span className="text">View</span>
                             </NavLink>
                 </div>
               <div className="playIcon">

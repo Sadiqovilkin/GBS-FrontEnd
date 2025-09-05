@@ -10,8 +10,8 @@ const ProjectCard = () => {
             <h2 className="pageTitle">Successful Projects Showcasing Our Expertise and Reliability</h2>
         </div>
         <div className="row">
-          {projectData.map((item) => (
-            <div className="col-lg-6 g-3">
+          {projectData.map((item,idx) => (
+            <div key={idx}  className="col-lg-6 g-3">
               <div
                 className="prCard"
                 style={{ backgroundImage: `url(${item.image})` }}
@@ -25,8 +25,8 @@ const ProjectCard = () => {
                   <p>{item.description}</p>
 
                   <NavLink to={`/project/${item.id}`}>
-                    <span class="icon">→</span>
-                    <span class="text">About Project</span>
+                    <span className="icon">→</span>
+                    <span className="text">About Project</span>
                   </NavLink>
                 </div>
              </div>

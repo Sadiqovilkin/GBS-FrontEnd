@@ -1,8 +1,13 @@
 import React from 'react'
+import MainSection from './projectMainSection/MainSection'
+import OtherProject from './otherProject/OtherProject'
 
 const ProjectDetail = () => {
   return (
-    <div>ProjectDetail</div>
+    <main>
+      <MainSection/>
+      <OtherProject/>
+    </main>
   )
 }
 

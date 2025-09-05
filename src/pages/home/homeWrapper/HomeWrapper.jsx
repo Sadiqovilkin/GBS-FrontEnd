@@ -20,8 +20,8 @@ const HomeWrapper = () => {
                             </div>
                             <div className='cardBtns'>
                         <NavLink  to="/contact">
-                               <span class="icon">→</span>
-                               <span class="text">Now Contact Us</span>
+                               <span className="icon">→</span>
+                               <span className="text">Now Contact Us</span>
                              </NavLink>
                             </div>
                     </div>
@@ -40,8 +40,8 @@ const HomeWrapper = () => {
                             </div>
                             <div className='cardBtns'>
                         <NavLink  to="/contact">
-                               <span class="icon">→</span>
-                               <span class="text">Now Contact Us</span>
+                               <span className="icon">→</span>
+                               <span className="text">Now Contact Us</span>
                              </NavLink>
                             </div>
                     </div>
