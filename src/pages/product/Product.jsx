@@ -1,9 +1,12 @@
 import React from 'react'
+import ProductCard from './productCard/ProductCard'
+import { productsData } from '../../MyDatas/MyDatas'
 
 const Product = () => {
+  
   return (
   <main>
-    <div>Product</div>
+    <ProductCard data={productsData}/>
   </main>
   )
 }

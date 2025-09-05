@@ -49,7 +49,7 @@ const OurProducts = () => {
           className="productsSwiper"
           id="slider_tab"
         >
-          {productsData?.map((item) => (
+          {productsData?.slice(0,6).map((item) => (
             <SwiperSlide key={item.id}>
               <NavLink to={`/product/${item?.id}`}>
                 <div className="productsCard">

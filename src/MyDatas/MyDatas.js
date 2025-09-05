@@ -28,6 +28,86 @@ export const overviewData = [
   },
 ];
 
+export const categoryData =  [
+  {
+    id: "CT1001",
+    name: "Elektronik",
+    subcategory: [
+      { id: "SC1001", name: "Telefon" },
+      { id: "SC1002", name: "Bilgisayar" },
+      { id: "SC1003", name: "Tablet" },
+      { id: "SC1007", name: "Aksesuar" }
+    ]
+  },
+  {
+    id: "CT1002",
+    name: "Ev Yaşam",
+    subcategory: [
+      { id: "SC1005", name: "Beyaz Eşya" },
+      { id: "SC1008", name: "Kulaklık" }
+    ]
+  },
+  {
+    id: "CT1003",
+    name: "Giyim",
+    subcategory: [
+      { id: "SC1007", name: "Aksesuar" },
+       { id: "SC1002", name: "Bilgisayar" },
+      { id: "SC1003", name: "Tablet" },
+    ]
+  },
+  {
+    id: "CT1004",
+    name: "Ayakkabı",
+    subcategory: [
+      { id: "SC1007", name: "Aksesuar" },
+      { id: "SC1008", name: "Kulaklık" }
+    ]
+  },
+  {
+    id: "CT1005",
+    name: "Spor & Outdoor",
+    subcategory: [
+      { id: "SC1003", name: "Tablet" },
+      { id: "SC1004", name: "Televizyon" }
+    ]
+  },
+  {
+    id: "CT1006",
+    name: "Kitap",
+    subcategory: [
+       { id: "SC1003", name: "Tablet" },
+    ]
+  },
+  {
+    id: "CT1007",
+    name: "Oyuncak",
+    subcategory: [
+      { id: "SC1006", name: "Kamera" },
+       { id: "SC1003", name: "Tablet" },
+    ]
+  },
+  {
+    id: "CT1008",
+    name: "Kozmetik",
+    subcategory: [
+      { id: "SC1008", name: "Kulaklık" },
+      { id: "SC1006", name: "Kamera" },
+       { id: "SC1003", name: "Tablet" },
+    ]
+  }
+];
+
+ export const subcategoryData = [
+  { id: "SC1001", name: "Telefon" },
+  { id: "SC1002", name: "Bilgisayar" },
+  { id: "SC1003", name: "Tablet" },
+  { id: "SC1004", name: "Televizyon" },
+  { id: "SC1005", name: "Beyaz Eşya" },
+  { id: "SC1006", name: "Kamera" },
+  { id: "SC1007", name: "Aksesuar" },
+  { id: "SC1008", name: "Kulaklık" }
+];
 
 
 import productImage from "../assets/images/productImage.png";
@@ -37,50 +117,107 @@ export const productsData = [
     title: "Lorem",
     description: "Double Door / Windowless",
     image: productImage,
+    category: "CT1001",
+    subcategory: "SC1001"
   },
   {
     id: "2",
     title: "Lorem2",
     description: "Double Door / Windowless",
     image: productImage,
+    category: "CT1001",
+    subcategory: "SC1002"
   },
   {
     id: "3",
     title: "Lorem3",
     description: "Double Door / Windowless",
     image: productImage,
+    category: "CT1001",
+    subcategory: "SC1003"
   },
   {
     id: "4",
     title: "Lorem4",
     description: "Double Door / Windowless",
     image: productImage,
+    category: "CT1002",
+    subcategory: "SC1005"
   },
   {
     id: "5",
     title: "Lorem5",
     description: "Double Door / Windowless",
     image: productImage,
+    category: "CT1002",
+    subcategory: "SC1008"
   },
   {
     id: "6",
     title: "Lorem6",
     description: "Double Door / Windowless",
     image: productImage,
+    category: "CT1003",
+    subcategory: "SC1007"
   },
   {
     id: "7",
     title: "Lorem7",
     description: "Double Door / Windowless",
     image: productImage,
+    category: "CT1004",
+    subcategory: "SC1007"
   },
   {
     id: "8",
-    title: "Lorem7",
+    title: "Lorem8",
     description: "Double Door / Windowless",
     image: productImage,
+    category: "CT1004",
+    subcategory: "SC1008"
+  },
+  {
+    id: "9",
+    title: "Lorem9",
+    description: "Double Door / Windowless",
+    image: productImage,
+    category: "CT1003",
+    subcategory: "SC1002"
+  },
+  {
+    id: "10",
+    title: "Lorem10",
+    description: "Double Door / Windowless",
+    image: productImage,
+    category: "CT1006",
+    subcategory: "SC1003"
+  },
+  {
+    id: "11",
+    title: "Lorem11",
+    description: "Double Door / Windowless",
+    image: productImage,
+    category: "CT1007",
+    subcategory: "SC1006"
+  },
+  {
+    id: "12",
+    title: "Lorem12",
+    description: "Double Door / Windowless",
+    image: productImage,
+    category: "CT1005",
+    subcategory: "SC1003"
+  },
+  {
+    id: "13",
+    title: "Lorem13",
+    description: "Double Door / Windowless",
+    image: productImage,
+    category: "CT1004",
+    subcategory: "SC1007"
   },
 ];
+
 
 
 
