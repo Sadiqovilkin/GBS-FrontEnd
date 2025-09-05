@@ -1,0 +1,72 @@
+@import "../../../styles/partial/variables.scss";
+@import "../../../styles/partial/mixin.scss";
+#productFilter{
+    .productBanner{
+        margin: 25px auto;
+        width: 95%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 25%;
+        border-radius: 32px;
+        position: relative;
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $overlay-color;
+            border-radius: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 48px;
+                font-weight: 600;
+                color: $white-color;
+                z-index: 2;
+            }
+        }
+    }
+
+    .filterBtns{
+        margin-bottom: 15px;
+        h3{
+            font-size: 28px;
+            font-weight: 600;
+            color: $primary-darkBlue-color;
+        }
+        ul{
+            display: flex;
+            gap: 10px;
+            margin: 0;
+            padding: 0;
+            li{
+                list-style: none;
+                    background: none;
+                    border: 1px solid $primary-darkBlue-color;
+                    border-radius: 40px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 150%;
+                    color: $primary-darkBlue-color;
+                    cursor: pointer;
+                    padding: 10px 15px;
+                    transition: .3s ease-in-out;
+                
+                &:hover{
+                    background-color: $primary-darkBlue-color;
+                    color: $white-color;
+                }
+
+                &.active{
+                    background-color: $primary-darkBlue-color;
+                    color: $white-color;
+                    border-color: $primary-darkBlue-color;
+                    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+                }
+            }
+        }
+    }
+}

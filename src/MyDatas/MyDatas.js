@@ -113,7 +113,7 @@ export const categoryData =  [
 import productImage from "../assets/images/productImage.png";
 export const productsData = [
   {
-    id: "1",
+    id: "P001",
     title: "Lorem",
     description: "Double Door / Windowless",
     image: productImage,
@@ -121,7 +121,7 @@ export const productsData = [
     subcategory: "SC1001"
   },
   {
-    id: "2",
+    id: "P002",
     title: "Lorem2",
     description: "Double Door / Windowless",
     image: productImage,
@@ -129,7 +129,7 @@ export const productsData = [
     subcategory: "SC1002"
   },
   {
-    id: "3",
+    id: "P003",
     title: "Lorem3",
     description: "Double Door / Windowless",
     image: productImage,
@@ -137,7 +137,7 @@ export const productsData = [
     subcategory: "SC1003"
   },
   {
-    id: "4",
+    id: "P004",
     title: "Lorem4",
     description: "Double Door / Windowless",
     image: productImage,
@@ -145,7 +145,7 @@ export const productsData = [
     subcategory: "SC1005"
   },
   {
-    id: "5",
+    id: "P005",
     title: "Lorem5",
     description: "Double Door / Windowless",
     image: productImage,
@@ -153,7 +153,7 @@ export const productsData = [
     subcategory: "SC1008"
   },
   {
-    id: "6",
+    id: "P006",
     title: "Lorem6",
     description: "Double Door / Windowless",
     image: productImage,
@@ -161,7 +161,7 @@ export const productsData = [
     subcategory: "SC1007"
   },
   {
-    id: "7",
+    id: "P007",
     title: "Lorem7",
     description: "Double Door / Windowless",
     image: productImage,
@@ -169,15 +169,15 @@ export const productsData = [
     subcategory: "SC1007"
   },
   {
-    id: "8",
+    id: "P008",
     title: "Lorem8",
     description: "Double Door / Windowless",
     image: productImage,
-    category: "CT1004",
+    category: "CT1008",
     subcategory: "SC1008"
   },
   {
-    id: "9",
+    id: "P009",
     title: "Lorem9",
     description: "Double Door / Windowless",
     image: productImage,
@@ -185,7 +185,7 @@ export const productsData = [
     subcategory: "SC1002"
   },
   {
-    id: "10",
+    id: "P010",
     title: "Lorem10",
     description: "Double Door / Windowless",
     image: productImage,
@@ -193,7 +193,7 @@ export const productsData = [
     subcategory: "SC1003"
   },
   {
-    id: "11",
+    id: "P011",
     title: "Lorem11",
     description: "Double Door / Windowless",
     image: productImage,
@@ -201,7 +201,7 @@ export const productsData = [
     subcategory: "SC1006"
   },
   {
-    id: "12",
+    id: "P012",
     title: "Lorem12",
     description: "Double Door / Windowless",
     image: productImage,
@@ -209,15 +209,14 @@ export const productsData = [
     subcategory: "SC1003"
   },
   {
-    id: "13",
+    id: "P013",
     title: "Lorem13",
     description: "Double Door / Windowless",
     image: productImage,
     category: "CT1004",
     subcategory: "SC1007"
-  },
+  }
 ];
-
 
 
 
