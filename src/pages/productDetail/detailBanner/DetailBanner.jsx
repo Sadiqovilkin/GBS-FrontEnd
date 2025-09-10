@@ -5,8 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import { NavLink } from "react-router-dom";
 
-const DetailBanner = ({data}) => {
-
+const DetailBanner = ({ data }) => {
   // Əgər məhsul tapılmasa, boş səhifə göstər
   if (!data) {
     return (
@@ -17,7 +16,7 @@ const DetailBanner = ({data}) => {
       </section>
     );
   }
-   const [activeImage, setActiveImage] = useState(data.image);
+  const [activeImage, setActiveImage] = useState(data.image);
 
   useEffect(() => {
     setActiveImage(data.image); // ✅ məhsul dəyişəndə əsas şəkil reset olsun
@@ -38,20 +37,17 @@ const DetailBanner = ({data}) => {
               </p>
 
               <ul>
-                {data?.features?.map((item,i)=>(
-
-                <li>
-                  <SucsessGrayIcon />
-                  {item}
-                </li>
-
+                {data?.features?.map((item, i) => (
+                  <li>
+                    <SucsessGrayIcon />
+                    {item}
+                  </li>
                 ))}
-                
               </ul>
-               <NavLink  to="/contact">
-                        <span className="icon">→</span>
-                        <span className="text">Now Contact Us</span>
-                      </NavLink>
+              <NavLink to="/contact">
+                <span className="icon">→</span>
+                <span className="text">Now Contact Us</span>
+              </NavLink>
             </div>
           </div>
           <div className="col-lg-6">
@@ -92,10 +88,7 @@ const DetailBanner = ({data}) => {
                     key={i}
                   >
                     <div className="sliderImage">
-                      <img
-                        src={img}
-                        alt={data?.title}
-                       />
+                      <img src={img} alt={data?.title} />
                     </div>
                   </SwiperSlide>
                 ))}

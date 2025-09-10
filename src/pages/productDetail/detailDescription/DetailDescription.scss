@@ -1,0 +1,49 @@
+@import "../../../styles/partial/variables.scss";
+@import "../../../styles/partial/mixin.scss";
+
+#detailDescription{
+    .descriptionSectionHeader{
+        margin: 45px 0;
+        h3{
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 150%;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+        }
+    }
+    .descriptionTable{
+        width: 100%;
+        .tableHeader{
+            display: flex;
+            justify-content: space-between;
+            padding: 16px 52px;
+            width: 100%;
+            background-color: $primary-darkBlue-color;
+                span{
+                    color: $white-color;
+                    font-size: 18px;
+
+                }
+        }
+        .tableBody{
+             display: flex;
+            justify-content: space-between;
+            padding: 16px 52px;
+            width: 100%;
+            background-color: $primary-gray-color;
+               p{
+                display: flex;
+                gap: 20px;
+                 span{
+                    // color: $white-color;
+                    font-size: 18px;
+
+                }
+               }
+        }
+    }
+}
