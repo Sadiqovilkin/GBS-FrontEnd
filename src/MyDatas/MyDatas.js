@@ -111,112 +111,219 @@ export const categoryData =  [
 
 
 import productImage from "../assets/images/productImage.png";
+
 export const productsData = [
   {
     id: "P001",
-    title: "Lorem",
+    title: "SIEMENS SIVACON S8",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, overviewImg, productImage],
     category: "CT1001",
-    subcategory: "SC1001"
+    subcategory: "SC1001",
+    features: [
+      "High quality and safety",
+      "Busbar system up to 7400A",
+      "Short circuit withstand up to 150kA",
+      "Modular design and easy combination",
+      "Upgradability without disrupting operation",
+      "Convenience of bottom or top connection",
+    ],
   },
   {
     id: "P002",
     title: "Lorem2",
     description: "Double Door / Windowless",
-    image: productImage,
+    image: overviewImg,
+    images: [overviewImg, productImage, overviewImg],
     category: "CT1001",
-    subcategory: "SC1002"
+    subcategory: "SC1002",
+    features: [
+      "Compact and lightweight design",
+      "Energy efficient operation",
+      "Extended lifetime of components",
+      "Flexible installation options",
+      "Compliance with IEC standards",
+    ],
   },
   {
     id: "P003",
     title: "Lorem3",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, productImage, overviewImg],
     category: "CT1001",
-    subcategory: "SC1003"
+    subcategory: "SC1003",
+    features: [
+      "Durable metal construction",
+      "Corrosion resistant coating",
+      "Integrated cable management",
+      "Enhanced operator safety",
+      "Low maintenance design",
+    ],
   },
   {
     id: "P004",
     title: "Lorem4",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, overviewImg],
     category: "CT1002",
-    subcategory: "SC1005"
+    subcategory: "SC1005",
+    features: [
+      "High operational reliability",
+      "Modular extension possibility",
+      "Environment-friendly materials",
+      "Ergonomic front access",
+      "Low power losses",
+    ],
   },
   {
     id: "P005",
     title: "Lorem5",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, overviewImg],
     category: "CT1002",
-    subcategory: "SC1008"
+    subcategory: "SC1008",
+    features: [
+      "Smart monitoring integration",
+      "Temperature-resistant design",
+      "Quick replacement of modules",
+      "Reduced installation time",
+      "International certifications",
+    ],
   },
   {
     id: "P006",
     title: "Lorem6",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, productImage, overviewImg],
     category: "CT1003",
-    subcategory: "SC1007"
+    subcategory: "SC1007",
+    features: [
+      "Optimized for industrial plants",
+      "Compact floor space requirement",
+      "Advanced protection devices",
+      "Efficient power distribution",
+      "Seismic-proof design",
+    ],
   },
   {
     id: "P007",
     title: "Lorem7",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, overviewImg],
     category: "CT1004",
-    subcategory: "SC1007"
+    subcategory: "SC1007",
+    features: [
+      "Customizable layout",
+      "Tool-free assembly",
+      "Enhanced cooling system",
+      "User-friendly interface",
+      "Strong mechanical stability",
+    ],
   },
   {
     id: "P008",
     title: "Lorem8",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, productImage],
     category: "CT1008",
-    subcategory: "SC1008"
+    subcategory: "SC1008",
+    features: [
+      "Arc fault containment",
+      "Improved ventilation system",
+      "Expandable busbar system",
+      "Quick diagnostics panel",
+      "Service-friendly design",
+    ],
   },
   {
     id: "P009",
     title: "Lorem9",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [overviewImg, productImage],
     category: "CT1003",
-    subcategory: "SC1002"
+    subcategory: "SC1002",
+    features: [
+      "High short-circuit strength",
+      "Compact assembly size",
+      "Low voltage drop",
+      "Reduced noise level",
+      "Long service life",
+    ],
   },
   {
     id: "P010",
     title: "Lorem10",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, productImage, overviewImg],
     category: "CT1006",
-    subcategory: "SC1003"
+    subcategory: "SC1003",
+    features: [
+      "Plug-and-play modules",
+      "Intelligent load management",
+      "Eco-friendly material usage",
+      "High resistance to dust",
+      "Cost-effective solution",
+    ],
   },
   {
     id: "P011",
     title: "Lorem11",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, overviewImg],
     category: "CT1007",
-    subcategory: "SC1006"
+    subcategory: "SC1006",
+    features: [
+      "Top/bottom cable entry options",
+      "Digital monitoring compatibility",
+      "Easy retrofitting",
+      "Reduced downtime maintenance",
+      "Excellent thermal stability",
+    ],
   },
   {
     id: "P012",
     title: "Lorem12",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, overviewImg],
     category: "CT1005",
-    subcategory: "SC1003"
+    subcategory: "SC1003",
+    features: [
+      "Strong anti-vibration design",
+      "Minimal power dissipation",
+      "Clear labeling system",
+      "Easy handling during transport",
+      "High-quality insulation",
+    ],
   },
   {
     id: "P013",
     title: "Lorem13",
     description: "Double Door / Windowless",
     image: productImage,
+    images: [productImage, overviewImg],
     category: "CT1004",
-    subcategory: "SC1007"
-  }
+    subcategory: "SC1007",
+    features: [
+      "Excellent fault tolerance",
+      "Optimized energy flow",
+      "High-efficiency cooling fans",
+      "Reduced electromagnetic emission",
+      "Space-saving structure",
+    ],
+  },
 ];
+
 
 
 

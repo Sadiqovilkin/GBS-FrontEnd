@@ -18,9 +18,7 @@ const HomeProject = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   //   const [activeData, setActiveData] = useState(projectData[0]);
   //    const [activeImage, setActiveImage] = useState(activeData?.image);
-  //      useEffect(()=>{
-  //     setActiveImage(activeData?.image)
-  // },[activeData])
+  //      
   return (
     <section id="homeProject">
       <div className="container">

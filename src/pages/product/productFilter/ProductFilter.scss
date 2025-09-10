@@ -37,12 +37,8 @@
             font-weight: 600;
             color: $primary-darkBlue-color;
         }
-        ul{
-            display: flex;
-            gap: 10px;
-            margin: 0;
-            padding: 0;
-            li{
+
+            .filterListBtn{
                 list-style: none;
                     background: none;
                     border: 1px solid $primary-darkBlue-color;
@@ -67,6 +63,6 @@
                     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
                 }
             }
-        }
+        
     }
 }
