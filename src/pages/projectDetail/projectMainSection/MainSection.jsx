@@ -17,13 +17,21 @@ const MainSection = () => {
                   <img src={activeImage} alt="" className="mainImage" />
 
                   <div className="sliderOtherImages">
+                      <div
+                        className={`otherImage ${
+                          detailedProject?.image === activeImage ? "active" : ""
+                        }`}
+                        onClick={() => setActiveImage(detailedProject?.image)}
+                      >
+                        <img src={detailedProject?.image} alt="" />
+                      </div>
                     {detailedProject?.images.map((img, index) => (
                       <div
                         key={index}
                         className={`otherImage ${
                           img === activeImage ? "active" : ""
                         }`}
-                        onClick={() => setActiveImage(img)} // kliklə dəyişsin
+                        onClick={() => setActiveImage(img)}
                       >
                         <img src={img} alt="" />
                       </div>

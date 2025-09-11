@@ -5,7 +5,7 @@ import playIcon from "../../../assets/icons/playIcon.png";
 import "./Overview.scss";
 import { NavLink } from "react-router-dom";
 const Overview = () => {
-  const [openId, setOpenId] = useState(1);
+  const [openId, setOpenId] = useState(overviewData[0].id);
 
   const toggleAccordion = (id) => {
     setOpenId((prev) => (prev === id ? null : id));
@@ -35,10 +35,11 @@ const Overview = () => {
                   className={`accordionItem ${
                     openId === item.id ? "active" : ""
                   }`}
+                  onClick={() => toggleAccordion(item.id)}
                 >
                   <div
                     className="accardionHeader"
-                    onClick={() => toggleAccordion(item.id)}
+                    
                   >
                     <span>
                       {/* <img className="miniLogo" src={playIcon} alt="" /> */}

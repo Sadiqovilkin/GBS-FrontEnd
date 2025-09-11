@@ -3,6 +3,7 @@ import DetailBanner from './detailBanner/DetailBanner'
 import { useParams } from 'react-router-dom';
 import { productsData } from '../../MyDatas/MyDatas';
 import DetailDescription from './detailDescription/DetailDescription';
+import DetailOtherProduct from './detailOtherProduct/DetailOtherProduct';
 
 const ProductDetail = () => {
     const { slug } = useParams();
@@ -13,6 +14,7 @@ const ProductDetail = () => {
     <main>
       <DetailBanner data={product}/>
       <DetailDescription/>
+      <DetailOtherProduct data={productsData}/>
     </main>
   )
 }

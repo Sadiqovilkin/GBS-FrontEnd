@@ -24,13 +24,18 @@ const OurProducts = () => {
             </div>
           </div>
         </div>
+         <button className="navigationBtn prevBtn">←</button>
+          <button className="navigationBtn nextBtn">→</button>
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+                   navigation={{
+            nextEl: ".nextBtn", 
+            prevEl: ".prevBtn",
+          }}
           breakpoints={{
             640: {
               slidesPerView: 1,
