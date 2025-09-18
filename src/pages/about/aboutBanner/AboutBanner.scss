@@ -1,53 +1,104 @@
 @import "../../../styles/partial/variables.scss";
 @import "../../../styles/partial/mixin.scss";
 
-#aboutBanner{
-    width: 95%;
-    margin: 25px auto;
-    border-radius: 32px;
-    background-color: $primary-gray-color;
-    padding: 20px 0;
-    .bannerContents{
-        .contentHead{
-            padding: 0 0 43px;
-            border-bottom: 0.5px solid #909090;
-            margin-bottom: 43px;
-            h2{
-
-            }
-            p{
-
-            }
-            a{
-                @include animationButton;
-                width: 40%;
-            }
-        }
-        .contentBody{
-            .bodyDiv{
-                width: 80%;
-                border-radius: 12px;
-                padding: 16px 0;
-                display: flex;
-                justify-content: space-around;
-                box-shadow: 0px 0px 13.1px 0px $overlay-color;
-
-            }
-        }
+#aboutBanner {
+  width: 95%;
+  margin: 25px auto;
+  border-radius: 32px;
+  padding: 20px 0;
+  .bannerContents {
+    .contentHead {
+      padding: 0 0 43px;
+      border-bottom: 0.5px solid #909090;
+      margin-bottom: 43px;
+      h2 {
+      }
+      p {
+      }
+      a {
+        @include animationButton;
+        width: 40%;
+      }
     }
-    .bannerImage{
-        width: 100%;
-        padding-bottom: 100%;
-        position: relative;
-        img{
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 24px;
-        }
+    .contentBody {
+      .bodyDiv {
+        width: 80%;
+        border-radius: 12px;
+        padding: 16px 0;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0px 0px 13.1px 0px $overlay-color;
+      }
+      .bodyLists{
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 15px;
+            justify-content: space-between;
+            li{
+                margin-left: 0px;
+                list-style: none;
+                width: 48%;
+                svg{
+                    margin-right: 10px;
+                    path{
 
+                        fill: $primary-darkBlue-color;
+                    }
+                }
+            }
+        }
+      }
     }
+  }
+  .bannerImage {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 24px;
+    }
+  }
+}
+.bgGray{
+  background-color: $primary-gray-color;
+  }
+.aboutTeamImage {
+  margin-top: 25px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 18% 0;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $overlay-color;
+    z-index: 1;
+  }
+  h4 {
+    position: relative;
+    z-index: 2;
+    color: $white-color;
+    font-weight: 500;
+    font-size: 38px;
+  }
 }
